@@ -1,2 +1,11 @@
-<h1>WellcomePages#help</h1>
-<p>Find me in app/views/wellcome_pages/help.html.erb</p>
+<% provide(:title, "Help") %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= yield(:title) %> | JEANS APP</title>
+  </head>
+  <body>
+    <h1>Help</h1>
+    <p>これはJEANS APPのHelpページです</p>
+  </body>
+</html>
