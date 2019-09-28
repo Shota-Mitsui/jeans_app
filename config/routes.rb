@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   get '/help', to: 'wellcome_pages#help'
   get '/about', to: 'wellcome_pages#about'
   get '/contact', to: 'wellcome_pages#contact'
+  get '/signup', to: 'users#new'
 end
